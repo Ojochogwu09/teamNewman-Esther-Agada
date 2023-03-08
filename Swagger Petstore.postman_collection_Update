@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "2c55084a-8143-45c7-81fb-66fab1cb1164",
-		"name": "Swagger Petstore 2",
+		"_postman_id": "190ed8c4-4840-4e34-a715-437824834de4",
+		"name": "Swagger Petstore",
 		"description": "This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.\n\nContact Support:\n Email: apiteam@swagger.io",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "25899181"
@@ -1485,22 +1485,21 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"var jsonData = pm.response.json();\r",
-									"\r",
-									"console.log(jsonData.sold)\r",
-									"pm.environment.set(\"sold\", 43);\r",
-									"\r",
-									"console.log(jsonData.pending)\r",
-									"pm.environment.set(\"pending\", 27);\r",
-									"\r",
-									"console.log(jsonData.available)\r",
-									"pm.environment.set(\"available\", 132);\r",
-									"\r",
 									"pm.test(\"Status code is 200\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"pm.test(\"Status code name should have an OK string\", function () {\r",
 									"    pm.response.to.have.status(\"OK\");\r",
+									"});\r",
+									"var jsonData = pm.response.json();\r",
+									"console.log(jsonData.sold)\r",
+									"\r",
+									"    pm.test(\"confirm that number sold is 22\", function () {\r",
+									"        \r",
+									"        pm.expect(jsonData.sold).to.eql(22);\r",
+									"    });\r",
+									"pm.test(\"confirm that inventory contains available\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"available\");\r",
 									"});\r",
 									"\r",
 									""
