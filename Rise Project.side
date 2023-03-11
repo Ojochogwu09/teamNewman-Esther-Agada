@@ -1,0 +1,1435 @@
+{
+  "id": "0f1ec36f-033e-4d22-becb-cc2c5d2b7e90",
+  "version": "2.0",
+  "name": "Rise",
+  "url": "https://risevest.com/",
+  "tests": [{
+    "id": "ed4e2e3b-e38a-4661-a580-f40405878e98",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "fc9f9a2f-628b-4893-8975-cce2c3ef8a22",
+    "name": "invalid_email/password_sign_in",
+    "commands": [{
+      "id": "7120282d-71f2-4b52-a10a-0123a3bf68d6",
+      "comment": "",
+      "command": "open",
+      "target": "https://risevest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "597a49b9-26e3-4b2b-bf84-5766a15a5207",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bf0b352-c194-438b-b9a3-77e155c94198",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.text-base", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.risevest.com/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c027449f-f00b-4d37-a572-0a2414a05378",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ae4f0e0-59a3-440b-8dea-9d9092c7fd8c",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "esthergad@ygmail.com"
+    }, {
+      "id": "a95c2dc9-6bdf-4572-99b8-0cd8ec7531f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2708613-5e68-4e1e-a80a-18acea79ba5d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "ngfderyjjgrr"
+    }, {
+      "id": "747bef83-383f-48f8-816a-d2a7204be45a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2b94974-d971-48ce-b0b2-53e55f508f85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2e069c8-aae9-4ef3-a4df-eaec19ca4ec0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "781b6240-00c7-49a4-bc7d-a99d70e9f621",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7a25ad4-378c-4754-be82-f351d363c62f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caf2fcac-d6a4-48ad-a885-f1ae7a4c211e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": "Invalid email or password."
+    }, {
+      "id": "e0b9b7ff-95ef-44d7-9c0d-a847b40d0e78",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "15d2c9d9-a778-46b4-bb58-97ecf6a2bdd1",
+    "name": "valid_email/invalid_password/sign_up",
+    "commands": [{
+      "id": "e4a567d4-812a-4fe0-b4ca-0744d19676fa",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.risevest.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3db0eb2-1dde-45bc-af25-cb0673caac04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec740508-2a1f-4bef-aea4-7ce85acf078d",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebf5edb6-07cc-43f6-9884-a57c6902beea",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "estheragada11@gmail.com"
+    }, {
+      "id": "66d35875-cf4e-4313-ac51-80e18bf27b99",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "495177b1-06a7-47b2-9ee5-a587bb41f156",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "nnnnnnnnnnnnnnnnnn"
+    }, {
+      "id": "c13b1f3d-2eed-4217-8e6b-cf474435d206",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd013d34-21fd-4d5c-8740-fb367c710fa5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbc9a2b3-fc22-4374-94c5-44e013def817",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bebc4d0-8070-444d-9f28-53716e01a208",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6e3f79a-b7b5-4d6c-8e4e-8f235082a66d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "058e8dea-3e88-4f28-aa6b-75d3382a2383",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab04123d-a462-48de-ac07-81aeadfcbeca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c90c442d-bfbb-437c-bb9b-aca13995227c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9641d29-4d62-4564-a30a-4587b9e6f446",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "093b95ee-3bc8-4cf4-acda-d03c69cfbc35",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": "Invalid email or password."
+    }, {
+      "id": "979f92a2-cb21-436e-9266-088f2ab6501c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cd3836e3-7c5e-47ae-ae4a-7251319d1287",
+    "name": "invalid_email/invalid_password/sign_in",
+    "commands": [{
+      "id": "13e8da61-07ef-473a-a5b7-57317cc3aff8",
+      "comment": "",
+      "command": "open",
+      "target": "https://risevest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "258c46f2-e735-4022-9f64-287108396e59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58aa4c51-b002-417a-8432-124bff280516",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.text-base", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.risevest.com/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e12c9a62-1162-434e-a4be-4195213ad08c",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15ae1d59-70dc-43dd-8c9c-bb945dfc1d03",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "estheragada11@gmail.com"
+    }, {
+      "id": "a93959f3-f7f0-4e10-88a1-aba40e5047b9",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "estheragada11@gmail.c"
+    }, {
+      "id": "ea61fb2a-55ee-4360-90af-ff90648a82b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68ce3e42-22c8-4865-b56a-0b4a807b71ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "bfjkdlldlgg"
+    }, {
+      "id": "0a83f323-3349-4af3-8a20-83e6913dae60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "954d7eaf-1671-40fe-b5c1-4a2b93881a5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f91fe176-bdcd-4bc7-9804-69df3a9f54a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c834c4d-f0d5-4d5f-8a0a-1f42ff8603ef",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24f7c9e7-3b15-4922-ae2b-379146a4bf96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac41f976-b148-49bf-b7d2-391faba006c3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": "Invalid email or password."
+    }, {
+      "id": "23f2e886-b7e6-4e0a-9bfd-254a695e9d04",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f0d5c733-7364-4848-b98b-402887d4629e",
+    "name": "password_less_than_8_characters",
+    "commands": [{
+      "id": "775a1c19-436b-4d80-a818-92000fef8e71",
+      "comment": "",
+      "command": "open",
+      "target": "https://risevest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3340c167-b2e9-4de8-8471-d33928f2cad5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34b048ab-1df3-41e3-854b-1dd86a829e9a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.text-base", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.risevest.com/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5a19b41-80cd-467a-bfee-dcf4025ba5fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "057440a0-1bae-4e3f-9605-0d7c276a4128",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "estheragada11@gmail.com"
+    }, {
+      "id": "524232c4-0b5d-4687-a172-b630c605de2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96bc23d5-431f-4e6a-8301-05330c5a8d10",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Ojochog"
+    }, {
+      "id": "6619e93c-9fdb-4dbe-b9ef-a4cf7fdb31cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5db916a6-8639-4517-aa99-0ad0f2625d7b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b219eb4f-a8e7-4fc2-966c-d7711a20a05c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e56a7652-4f7e-450b-be84-09af972bf069",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53d2b9cc-1d2e-48a0-947a-6492628a0409",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0752b81f-4f7c-40e3-aac2-357f9d00b475",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57c7cd93-7d8e-42ca-ba72-019f0bac6589",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": "Invalid email or password."
+    }, {
+      "id": "4fdb1492-0847-4cf3-9af5-ccd14ca11e8f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "279048f8-0725-4ee1-860f-8c13defb7081",
+    "name": "incomplete_email/valid_password",
+    "commands": [{
+      "id": "35069e3a-3869-4ffc-8890-5a1b53e72e3f",
+      "comment": "",
+      "command": "open",
+      "target": "https://risevest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3070491f-74b1-4379-8594-1bccd2a7f8af",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85b14691-eae9-4fbf-834c-9912143fb5bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.main-nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about-us')]", "xpath:href"],
+        ["xpath=//nav/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa379d90-a132-4acb-b9fd-0a0f8697d8aa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.main-nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about-us')]", "xpath:href"],
+        ["xpath=//nav/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "717c8a9f-0839-4d06-96e2-f88ac4cf52a7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sign Up",
+      "targets": [
+        ["linkText=Sign Up", "linkText"],
+        ["css=.signuptop", "css:finder"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.risevest.com/signup')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2d66bf0-2017-4a97-92b1-75fe11f2c2dc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Sign Up",
+      "targets": [
+        ["linkText=Sign Up", "linkText"],
+        ["css=.signuptop", "css:finder"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.risevest.com/signup')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f2de1ca-81e0-433a-aaa5-b056f1f516a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.text-base", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.risevest.com/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e72edfa-64e0-4265-b99e-77cac39ffc4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fd76495-3ac9-4265-b83d-cc6680d696b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "estheragada11@gmail.com"
+    }, {
+      "id": "9516f0d9-1a01-4049-b1d8-223c101259db",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "estheragada11@gmail"
+    }, {
+      "id": "c3dcc419-5889-4eed-a122-6acd5b6ba8cb",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92191047-8507-4cfa-936a-9b0c3c270c53",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=password-label",
+      "targets": [
+        ["id=password-label", "id"],
+        ["css=#password-label", "css:finder"],
+        ["xpath=//label[@id='password-label']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd227dda-ff6c-49be-a2f3-f2afc5bfbcee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-6",
+      "targets": [
+        ["css=.mt-6", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32b00e36-d74d-48b2-8626-ef6af4844114",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Ojochogwu94+"
+    }, {
+      "id": "216922a1-f29d-42f5-8fd7-fca7301455d5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c0d42cc0-9db0-4a69-9325-5c12af2effaf",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-helper-text",
+      "targets": [
+        ["id=email-helper-text", "id"],
+        ["css=#email-helper-text", "css:finder"],
+        ["xpath=//p[@id='email-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter a valid email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "488d622a-519e-46e3-95e2-3da3a75c53d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-helper-text",
+      "targets": [
+        ["id=email-helper-text", "id"],
+        ["css=#email-helper-text", "css:finder"],
+        ["xpath=//p[@id='email-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter a valid email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd31933-9818-47e9-afd1-3b3b82392877",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=email-helper-text",
+      "targets": [
+        ["id=email-helper-text", "id"],
+        ["css=#email-helper-text", "css:finder"],
+        ["xpath=//p[@id='email-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter a valid email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47875f16-bc04-4454-a87e-61299c525a63",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-helper-text",
+      "targets": [
+        ["id=email-helper-text", "id"],
+        ["css=#email-helper-text", "css:finder"],
+        ["xpath=//p[@id='email-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter a valid email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67a50342-2bb6-4e4e-bca7-316f22568e53",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=email-helper-text",
+      "targets": [
+        ["id=email-helper-text", "id"],
+        ["css=#email-helper-text", "css:finder"],
+        ["xpath=//p[@id='email-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter a valid email address')]", "xpath:innerText"]
+      ],
+      "value": "Enter a valid email address"
+    }, {
+      "id": "2781707f-c24b-4063-93a4-d2d6e4a935ea",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "870305a3-51d5-43f4-aa90-f60e304a2895",
+    "name": "valid_email/no_password",
+    "commands": [{
+      "id": "99a1c03e-cbc1-4071-a40a-8de583f126c1",
+      "comment": "",
+      "command": "open",
+      "target": "https://risevest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47c91ecb-1e26-428c-b89f-3e51a0297057",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efcff44c-11a4-47a9-84ce-625ea2aff777",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.text-base", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.risevest.com/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fce3272a-8d3d-4daa-84bb-c80ec69c99fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55ea3ed6-c1ac-4745-8f53-78628fd327a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "estheragada11@gmail.com"
+    }, {
+      "id": "5b9943c6-0373-4bfc-97af-da31ae718010",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "511b50dd-8b10-454c-81bf-0701364f1f9f",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-helper-text",
+      "targets": [
+        ["id=password-helper-text", "id"],
+        ["css=#password-helper-text", "css:finder"],
+        ["xpath=//p[@id='password-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter your password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71285774-9bc2-479f-b41e-343a8fba4a9d",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-helper-text",
+      "targets": [
+        ["id=password-helper-text", "id"],
+        ["css=#password-helper-text", "css:finder"],
+        ["xpath=//p[@id='password-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter your password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4006bc3e-1f8b-4e74-b5cf-df8e2260a440",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=password-helper-text",
+      "targets": [
+        ["id=password-helper-text", "id"],
+        ["css=#password-helper-text", "css:finder"],
+        ["xpath=//p[@id='password-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter your password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "102ad76b-e500-43bf-9b7e-aed06e69da0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-helper-text",
+      "targets": [
+        ["id=password-helper-text", "id"],
+        ["css=#password-helper-text", "css:finder"],
+        ["xpath=//p[@id='password-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter your password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d89aa393-2c1e-4e21-b17a-4466d1644dc5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=password-helper-text",
+      "targets": [
+        ["id=password-helper-text", "id"],
+        ["css=#password-helper-text", "css:finder"],
+        ["xpath=//p[@id='password-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter your password')]", "xpath:innerText"]
+      ],
+      "value": "Enter your password"
+    }, {
+      "id": "90b6c6e4-bd07-4797-ab96-ed788d235c84",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "871f3bc9-f6da-45f1-b3b5-979cb95bf204",
+    "name": "no_email/no_password",
+    "commands": [{
+      "id": "8f4fc4d6-b796-4fee-85d9-974e922e8865",
+      "comment": "",
+      "command": "open",
+      "target": "https://risevest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "947dcb74-36dc-4d8c-ac46-eedc26eea14d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adbc430f-40cf-45d9-bb4f-a7059a652245",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.text-base", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.risevest.com/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa5841e4-f512-4d35-b628-eeea3a4dffd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb2061dd-158e-4481-aaec-96a8fc1b9b6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-helper-text",
+      "targets": [
+        ["id=email-helper-text", "id"],
+        ["css=#email-helper-text", "css:finder"],
+        ["xpath=//p[@id='email-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter your email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fb0393d-a826-42f5-a3cd-ee87ed76e3c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-helper-text",
+      "targets": [
+        ["id=email-helper-text", "id"],
+        ["css=#email-helper-text", "css:finder"],
+        ["xpath=//p[@id='email-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter your email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fb31be4-281a-4505-ac7f-a6b5747c85e5",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=email-helper-text",
+      "targets": [
+        ["id=email-helper-text", "id"],
+        ["css=#email-helper-text", "css:finder"],
+        ["xpath=//p[@id='email-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter your email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91003e93-c11b-4590-90d8-895427b7030b",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-helper-text",
+      "targets": [
+        ["id=email-helper-text", "id"],
+        ["css=#email-helper-text", "css:finder"],
+        ["xpath=//p[@id='email-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter your email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bc04374-0d39-4b9e-900f-32437a7b84ac",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=email-helper-text",
+      "targets": [
+        ["id=email-helper-text", "id"],
+        ["css=#email-helper-text", "css:finder"],
+        ["xpath=//p[@id='email-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/form/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Enter your email address')]", "xpath:innerText"]
+      ],
+      "value": "Enter your email address"
+    }, {
+      "id": "17d4b06b-cb6a-490e-8729-2ec06e3c247f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c037d08b-3cd9-43f8-998b-b100ce5fcbac",
+    "name": "valid_email/invalid_password",
+    "commands": [{
+      "id": "bf83cdf8-ccde-46b0-ade8-d0834a3adeb1",
+      "comment": "",
+      "command": "open",
+      "target": "https://risevest.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5376e304-8170-4e9b-985b-8b2e7c9c9d8a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caf21da3-bb80-470a-b0e8-7ad27ade7e21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid > .jsx-421a280d70e93371",
+      "targets": [
+        ["css=.grid > .jsx-421a280d70e93371", "css:finder"],
+        ["xpath=//div[@id='__next']/main/header/div/nav/div[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eceaabad-0ff7-4a00-8868-9fca1363e1c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3f38104-c6be-468b-8ebb-4f1205146695",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "estheragada11@gmail.com"
+    }, {
+      "id": "2ba492f7-ca66-4e12-ad4f-008af86722b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7325387d-65d5-4ea2-9382-96d04dfef1cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Ojochogwu94+"
+    }, {
+      "id": "6a52ad8a-d034-41f2-b05b-f5596953bd70",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0670dfd9-4e3c-48d4-8a58-334d6ce326f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-helper-text",
+      "targets": [
+        ["id=password-helper-text", "id"],
+        ["css=#password-helper-text", "css:finder"],
+        ["xpath=//p[@id='password-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/form/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "470186fa-ed1e-44a9-bde6-e07bddcb9058",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-helper-text",
+      "targets": [
+        ["id=password-helper-text", "id"],
+        ["css=#password-helper-text", "css:finder"],
+        ["xpath=//p[@id='password-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/form/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5adfe964-5584-423a-86bb-0bc8368c9550",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=password-helper-text",
+      "targets": [
+        ["id=password-helper-text", "id"],
+        ["css=#password-helper-text", "css:finder"],
+        ["xpath=//p[@id='password-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/form/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3c7d20d-6adb-4add-ba5f-9845cdc93556",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-helper-text",
+      "targets": [
+        ["id=password-helper-text", "id"],
+        ["css=#password-helper-text", "css:finder"],
+        ["xpath=//p[@id='password-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/form/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "148e14b4-05e5-48b5-9bfe-31ff00b4ae69",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=password-helper-text",
+      "targets": [
+        ["id=password-helper-text", "id"],
+        ["css=#password-helper-text", "css:finder"],
+        ["xpath=//p[@id='password-helper-text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/form/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": "Your password doesn't meet the requirements"
+    }, {
+      "id": "9b53e846-a3e8-445f-9616-4c02baa302a9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "53f7006f-cb1d-4cca-8350-8773314aaa2d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "bbdae0f3-1ba8-4ce0-9ba4-d682663b1c0d",
+    "name": "Rise Tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fc9f9a2f-628b-4893-8975-cce2c3ef8a22"]
+  }],
+  "urls": ["https://risevest.com/"],
+  "plugins": []
+}
